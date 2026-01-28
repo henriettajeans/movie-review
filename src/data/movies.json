@@ -1,0 +1,110 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Inception",
+            "year": 2010,
+            "genre": [
+                "Action",
+                "Sci-Fi",
+                "Thriller"
+            ],
+            "director": "Christopher Nolan",
+            "durationMinutes": 148,
+            "shortDescription": "En skicklig tjuv stjäl hemligheter genom att ta sig in i människors drömmar.",
+            "poster": "https://img.omdbapi.com/?i=tt1375666&&apikey=b22e9656"
+        },
+        {
+            "id": 2,
+            "name": "The Dark Knight",
+            "year": 2008,
+            "genre": [
+                "Action",
+                "Crime",
+                "Drama"
+            ],
+            "director": "Christopher Nolan",
+            "durationMinutes": 152,
+            "shortDescription": "Batman ställs mot Jokern, en kaotisk fiende som hotar hela Gotham.",
+            "poster": "https://img.omdbapi.com/?i=tt0468569&&apikey=b22e9656"
+        },
+        {
+            "id": 3,
+            "name": "Interstellar",
+            "year": 2014,
+            "genre": [
+                "Adventure",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "director": "Christopher Nolan",
+            "durationMinutes": 169,
+            "shortDescription": "Astronauter reser genom rymden för att rädda mänskligheten.",
+            "poster": "https://img.omdbapi.com/?i=tt0816692&&apikey=b22e9656"
+        },
+        {
+            "id": 4,
+            "name": "Parasite",
+            "year": 2019,
+            "genre": [
+                "Drama",
+                "Thriller"
+            ],
+            "director": "Bong Joon-ho",
+            "durationMinutes": 132,
+            "shortDescription": "En fattig familj infiltrerar en rik familjs liv med oväntade följder.",
+            "poster": "https://img.omdbapi.com/?i=tt6751668&h&apikey=b22e9656"
+        },
+        {
+            "id": 5,
+            "name": "Fight Club",
+            "year": 1999,
+            "genre": [
+                "Drama"
+            ],
+            "director": "David Fincher",
+            "durationMinutes": 139,
+            "shortDescription": "En kontorsarbetare skapar en hemlig slagsmålsklubb.",
+            "poster": "https://img.omdbapi.com/?i=tt0137523&h&apikey=b22e9656"
+        },
+        {
+            "id": 6,
+            "name": "Pulp Fiction",
+            "year": 1994,
+            "genre": [
+                "Crime",
+                "Drama"
+            ],
+            "director": "Quentin Tarantino",
+            "durationMinutes": 154,
+            "shortDescription": "Sammanflätade berättelser från LA:s kriminella värld.",
+            "poster": "https://img.omdbapi.com/?i=tt0110912&h&apikey=b22e9656"
+        },
+        {
+            "id": 7,
+            "name": "Forrest Gump",
+            "year": 1994,
+            "genre": [
+                "Drama",
+                "Romance"
+            ],
+            "director": "Robert Zemeckis",
+            "durationMinutes": 142,
+            "shortDescription": "En godhjärtad man upplever och påverkar historiska händelser.",
+            "poster": "https://img.omdbapi.com/?i=tt0109830&h&apikey=b22e9656"
+        },
+        {
+            "id": 8,
+            "name": "The Matrix",
+            "year": 1999,
+            "genre": [
+                "Action",
+                "Sci-Fi"
+            ],
+            "director": "The Wachowskis",
+            "durationMinutes": 136,
+            "shortDescription": "En hacker upptäcker att verkligheten är en illusion.",
+            "poster": "https://img.omdbapi.com/?i=tt0133093&h&apikey=b22e9656"
+        }
+    ]
+}
