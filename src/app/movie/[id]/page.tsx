@@ -1,9 +1,16 @@
 import data from "@/data/movies.json";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 export default async function singleMovie({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
     const singleMovie = data.items.find((movie) => movie.id === Number(id))
+
+    if (!singleMovie) {
+        return (
+            notFound()
+        )
+    }
 
     const poster = singleMovie?.poster;
 

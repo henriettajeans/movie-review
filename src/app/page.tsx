@@ -7,11 +7,9 @@ export default function Home() {
 
   const movies = data.items;
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main>
-        <Hero />
-        <DisplayMovies movies={movies} />
-      </main>
+    <div >
+      <Hero />
+      <DisplayMovies movies={movies} />
     </div>
   );
 }
