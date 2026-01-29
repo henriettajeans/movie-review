@@ -4,6 +4,15 @@ import Image from "next/image";
 export default async function singleMovie({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
     const singleMovie = data.items.find((movie) => movie.id === Number(id))
+
+    const poster = singleMovie?.poster;
+
+    if (!poster) {
+        return (
+            <span>Ingen bild</span>
+        )
+    }
+
     return (
         <section>
             <div>
@@ -21,7 +30,8 @@ export default async function singleMovie({ params }: { params: Promise<{ id: st
 
             </div>
             <div>
-
+                <Image src={poster} alt={singleMovie?.name} height={300}
+                    width={200} />
 
             </div>
 

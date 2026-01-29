@@ -5,7 +5,6 @@ export default function NavBar() {
     // Creating nav objects to map in render 
     const nav = [
         { name: "Home", href: "/" },
-        { name: "Movies", href: "/movies" },
         { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" }
     ]
